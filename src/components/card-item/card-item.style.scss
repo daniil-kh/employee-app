@@ -1,0 +1,32 @@
+.card-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 1%;
+  margin-left: 35%;
+
+  .image {
+    width: 30vh;
+    min-width: 200px;
+    height: 30vh;
+    min-height: 200px;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .person-info-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-left: 2%;
+  }
+
+  .delete-button{
+    width: 20px;
+    height: 20px;
+    background-size: cover;
+    background-position: center;
+  }
+}

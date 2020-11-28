@@ -1,0 +1,25 @@
+.header-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 7vh;
+  width: 99%;
+  margin-bottom: 2%;
+  margin-left: 1%;
+
+  .options-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    height: 50%;
+    width: 100%;
+
+    .link {
+      text-decoration: none;
+      margin-right: 2%;
+      color: black;
+      cursor: pointer;
+    }
+  }
+}
